@@ -5,15 +5,6 @@ CREATE TABLE situacao (
                 PRIMARY KEY (situ_codigo)
 );
 
-ALTER TABLE situacao COMMENT '1 - Aberto
-2 - Separação
-3 - Disponivel para entrega
-4 - Enviado para o cliente
-5 - Entregue
-6 - Fechado
-7 - Cancelado';
-
-
 CREATE TABLE usuario (
                 usua_codigo INT AUTO_INCREMENT NOT NULL,
                 usua_nome VARCHAR(60) NOT NULL,
